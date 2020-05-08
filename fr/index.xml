@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maremoto Café and Cocktail</title>
-    <link>http://maremotocafe.com/</link>
+    <link>http://maremotocafe.com/fr/</link>
     <description>Recent content on Maremoto Café and Cocktail</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>copyright &amp;copy; 2019 [gethugothemes](https://gethugothemes.com) all right reserved</copyright>
+    <language>fr-fr</language>
+    <copyright>copyright et copie; 2019 [gethugothemes] (https://gethugothemes.com) tous droits réservés</copyright>
     
-	<atom:link href="http://maremotocafe.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://maremotocafe.com/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
