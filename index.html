@@ -167,14 +167,13 @@
 		<div class="row ">
 			<div class="col-xl-12">
 				<!-- Section title -->
-				<div class="title text-center">
+				<div class="title text-center" style="padding-bottom: 0">
 					<h2>Nuestra<span class="color">
 							Carta</span></h2>
 					<div class="border-meghna"></div>
-                    <p>
+                    <p style="font-size: 25px; font-weight: 800;">
                     <i class="field-icon las la-info-circle"></i>
-                        <span>Acota tu búsqueda utilizando las pestañas de familias de artículos.
-</span>
+                        <span>Encuentra lo que deseas paso a paso</span>
                     </p>
                 </div>
 				<!-- End of section title -->
@@ -188,49 +187,60 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-flex flex-wrap" filter-level="1"  data-toggle="buttons">
-    <label class="btn filter-default active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="all" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter " filter-level="1" >
     
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="0e4289bca67302dd005790003de478e2">
-        <i class="las la-cocktail"></i>
-        <span>Cocktails &amp; Drinks</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Primero</h3>
+        <p>elige una categoría</p>
+    </div>
     
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="988adb8ca725662baaf43e59102846c9">
-        <i class="las la-blender"></i>
-        <span>Smoothies, Healthy Drinks y Batidos</span>
-    </label>
-    
-    <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="ecf13d5ef58c49cc1a969b29140c8143">
-        <i class="las la-certificate"></i>
-        <span>Ofertas Destacadas</span>
-    </label>
-    
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="bfee8906259b5e03945e5c6352fdef28">
-        <i class="las la-coffee"></i>
-        <span>Cafés y Tés</span>
-    </label>
-    
-    <label class="btn filter-58890fbf21cf1187aabb3db3a4bd5a74">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="58890fbf21cf1187aabb3db3a4bd5a74">
-        <i class="las la-bacon"></i>
-        <span>Desayunos, Almuerzos y Zumos</span>
-    </label>
-    
-    <label class="btn filter-b7a1b00dbce30094623e6323363c06e7">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="b7a1b00dbce30094623e6323363c06e7">
-        <i class="las la-hamburger"></i>
-        <span>Bocadillos, Sándwich y Focaccias</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-default active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="all" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="0e4289bca67302dd005790003de478e2">
+            <i class="las la-cocktail"></i>
+            <span>Cocktails &amp; Drinks</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="988adb8ca725662baaf43e59102846c9">
+            <i class="las la-blender"></i>
+            <span>Smoothies, Healthy Drinks y Batidos</span>
+        </label>
+        
+        <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="ecf13d5ef58c49cc1a969b29140c8143">
+            <i class="las la-certificate"></i>
+            <span>Ofertas Destacadas</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="bfee8906259b5e03945e5c6352fdef28">
+            <i class="las la-coffee"></i>
+            <span>Cafés y Tés</span>
+        </label>
+        
+        <label class="btn filter-58890fbf21cf1187aabb3db3a4bd5a74">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="58890fbf21cf1187aabb3db3a4bd5a74">
+            <i class="las la-bacon"></i>
+            <span>Desayunos, Almuerzos y Zumos</span>
+        </label>
+        
+        <label class="btn filter-b7a1b00dbce30094623e6323363c06e7">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="b7a1b00dbce30094623e6323363c06e7">
+            <i class="las la-hamburger"></i>
+            <span>Bocadillos, Sándwich y Focaccias</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -241,49 +251,60 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="2" filter-parent="0e4289bca67302dd005790003de478e2" data-toggle="buttons">
-    <label class="btn filter-0e4289bca67302dd005790003de478e2 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="0e4289bca67302dd005790003de478e2" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="2" filter-parent="0e4289bca67302dd005790003de478e2">
     
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="f4fb4e8d6bcb19d8b77736d08477c7b6">
-        <i class="las la-cocktail"></i>
-        <span>Gin Tonic y Vodka Tonic</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Ahora</h3>
+        <p>concreta tu búsqueda con una de las siguientes subcategorías</p>
+    </div>
     
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3f904de5ed0bee35f1b8eb2096e52f23">
-        <i class="las la-cocktail"></i>
-        <span>Mojitos Caipirinhas y Similares</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="b34b0f802613ce0a65924e6e6d56087d">
-        <i class="las la-cocktail"></i>
-        <span>Cocktails de Autor</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="7b7996c88c7672661321fb821e12df01">
-        <i class="las la-cocktail"></i>
-        <span>Cocktails Frozeen</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="2862c5a8be6c58579a9fb8586143b38f">
-        <i class="las la-cocktail"></i>
-        <span>Cocktails Long Drinks</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="5b38d4fc03d9b2af5b32aecb51f8d9b0">
-        <i class="las la-cocktail"></i>
-        <span>Cocktails Clásicos</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-0e4289bca67302dd005790003de478e2 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="0e4289bca67302dd005790003de478e2" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="f4fb4e8d6bcb19d8b77736d08477c7b6">
+            <i class="las la-cocktail"></i>
+            <span>Gin Tonic y Vodka Tonic</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3f904de5ed0bee35f1b8eb2096e52f23">
+            <i class="las la-cocktail"></i>
+            <span>Mojitos Caipirinhas y Similares</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="b34b0f802613ce0a65924e6e6d56087d">
+            <i class="las la-cocktail"></i>
+            <span>Cocktails de Autor</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="7b7996c88c7672661321fb821e12df01">
+            <i class="las la-cocktail"></i>
+            <span>Cocktails Frozeen</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="2862c5a8be6c58579a9fb8586143b38f">
+            <i class="las la-cocktail"></i>
+            <span>Cocktails Long Drinks</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="5b38d4fc03d9b2af5b32aecb51f8d9b0">
+            <i class="las la-cocktail"></i>
+            <span>Cocktails Clásicos</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -292,37 +313,48 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="2" filter-parent="988adb8ca725662baaf43e59102846c9" data-toggle="buttons">
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="988adb8ca725662baaf43e59102846c9" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="2" filter-parent="988adb8ca725662baaf43e59102846c9">
     
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="8aebafecb0b432ffa27529a7e766bd24">
-        <i class="las la-blender"></i>
-        <span>Smoothies</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Ahora</h3>
+        <p>concreta tu búsqueda con una de las siguientes subcategorías</p>
+    </div>
     
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="4df9ce73a87baa0083ad9c4f7e0df0b7">
-        <i class="las la-blender"></i>
-        <span>Granizados</span>
-    </label>
-    
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="164268fe06ac484419417ab78bd48975">
-        <i class="las la-blender"></i>
-        <span>Batidos</span>
-    </label>
-    
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="cba5a17a94dfdc401eed0eeda57a8987">
-        <i class="las la-blender"></i>
-        <span>Healthy Cocktails</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="988adb8ca725662baaf43e59102846c9" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="8aebafecb0b432ffa27529a7e766bd24">
+            <i class="las la-blender"></i>
+            <span>Smoothies</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="4df9ce73a87baa0083ad9c4f7e0df0b7">
+            <i class="las la-blender"></i>
+            <span>Granizados</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="164268fe06ac484419417ab78bd48975">
+            <i class="las la-blender"></i>
+            <span>Batidos</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="cba5a17a94dfdc401eed0eeda57a8987">
+            <i class="las la-blender"></i>
+            <span>Healthy Cocktails</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -331,31 +363,42 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="2" filter-parent="ecf13d5ef58c49cc1a969b29140c8143" data-toggle="buttons">
-    <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="ecf13d5ef58c49cc1a969b29140c8143" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="2" filter-parent="ecf13d5ef58c49cc1a969b29140c8143">
     
-    <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="734300b6e0762615d0ee649310df1fda">
-        <i class="las la-certificate"></i>
-        <span>Día</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Ahora</h3>
+        <p>concreta tu búsqueda con una de las siguientes subcategorías</p>
+    </div>
     
-    <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3b0be7882cac5ce1fbe220f07400e2cd">
-        <i class="las la-certificate"></i>
-        <span>Tarde</span>
-    </label>
-    
-    <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="db29d1f89245700c483fab4e730ecf4d">
-        <i class="las la-certificate"></i>
-        <span>Noche</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="ecf13d5ef58c49cc1a969b29140c8143" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="734300b6e0762615d0ee649310df1fda">
+            <i class="las la-certificate"></i>
+            <span>Día</span>
+        </label>
+        
+        <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3b0be7882cac5ce1fbe220f07400e2cd">
+            <i class="las la-certificate"></i>
+            <span>Tarde</span>
+        </label>
+        
+        <label class="btn filter-ecf13d5ef58c49cc1a969b29140c8143">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="db29d1f89245700c483fab4e730ecf4d">
+            <i class="las la-certificate"></i>
+            <span>Noche</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -364,37 +407,48 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="2" filter-parent="bfee8906259b5e03945e5c6352fdef28" data-toggle="buttons">
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="bfee8906259b5e03945e5c6352fdef28" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="2" filter-parent="bfee8906259b5e03945e5c6352fdef28">
     
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="83996417ad1a19fd4efcaad540a9ec41">
-        <i class="las la-coffee"></i>
-        <span>Cafés con Alcohol</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Ahora</h3>
+        <p>concreta tu búsqueda con una de las siguientes subcategorías</p>
+    </div>
     
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="e75314bfc0e25377cdfd86110551909f">
-        <i class="las la-coffee"></i>
-        <span>Cafés sin Alcohol</span>
-    </label>
-    
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="22a5f4dd7f7568ccaa0057223fea5823">
-        <i class="las la-coffee"></i>
-        <span>Cafés Fríos</span>
-    </label>
-    
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1625df8d46c41d6a5cc30cd0f9fb025b">
-        <i class="las la-coffee"></i>
-        <span>Infusiones</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="bfee8906259b5e03945e5c6352fdef28" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="83996417ad1a19fd4efcaad540a9ec41">
+            <i class="las la-coffee"></i>
+            <span>Cafés con Alcohol</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="e75314bfc0e25377cdfd86110551909f">
+            <i class="las la-coffee"></i>
+            <span>Cafés sin Alcohol</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="22a5f4dd7f7568ccaa0057223fea5823">
+            <i class="las la-coffee"></i>
+            <span>Cafés Fríos</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1625df8d46c41d6a5cc30cd0f9fb025b">
+            <i class="las la-coffee"></i>
+            <span>Infusiones</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -425,37 +479,48 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="3" filter-parent="3f904de5ed0bee35f1b8eb2096e52f23" data-toggle="buttons">
-    <label class="btn filter-0e4289bca67302dd005790003de478e2 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3f904de5ed0bee35f1b8eb2096e52f23" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="3" filter-parent="3f904de5ed0bee35f1b8eb2096e52f23">
     
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="d831864efefb51c1159aa45311f7c5ea">
-        <i class="las la-cocktail"></i>
-        <span>Con Rón o Cachaça</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Finalmente</h3>
+        <p>escoge una opción y pulsa una foto para ver más detalles</p>
+    </div>
     
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="e0da264fba1c30ab33586fb5c16a55b4">
-        <i class="las la-cocktail"></i>
-        <span>Con Whisky o Bourbon</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="95c0c9c0f6e03d713de1185071294764">
-        <i class="las la-cocktail"></i>
-        <span>Con Vodka o Gin</span>
-    </label>
-    
-    <label class="btn filter-0e4289bca67302dd005790003de478e2">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1f99aef82fb059acf6fec796df8025c2">
-        <i class="las la-cocktail"></i>
-        <span>Otros Licores</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-0e4289bca67302dd005790003de478e2 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="3f904de5ed0bee35f1b8eb2096e52f23" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="d831864efefb51c1159aa45311f7c5ea">
+            <i class="las la-cocktail"></i>
+            <span>Con Rón o Cachaça</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="e0da264fba1c30ab33586fb5c16a55b4">
+            <i class="las la-cocktail"></i>
+            <span>Con Whisky o Bourbon</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="95c0c9c0f6e03d713de1185071294764">
+            <i class="las la-cocktail"></i>
+            <span>Con Vodka o Gin</span>
+        </label>
+        
+        <label class="btn filter-0e4289bca67302dd005790003de478e2">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1f99aef82fb059acf6fec796df8025c2">
+            <i class="las la-cocktail"></i>
+            <span>Otros Licores</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -508,25 +573,36 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="3" filter-parent="cba5a17a94dfdc401eed0eeda57a8987" data-toggle="buttons">
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="cba5a17a94dfdc401eed0eeda57a8987" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="3" filter-parent="cba5a17a94dfdc401eed0eeda57a8987">
     
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1be04d7317b2a166787e6dd8d8670db9">
-        <i class="las la-blender"></i>
-        <span>Sin Alcohol</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Finalmente</h3>
+        <p>escoge una opción y pulsa una foto para ver más detalles</p>
+    </div>
     
-    <label class="btn filter-988adb8ca725662baaf43e59102846c9">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="a1f503a6c28c3f94ab384a9bd2829911">
-        <i class="las la-blender"></i>
-        <span>Sin Alcohol ni Azúcares</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="cba5a17a94dfdc401eed0eeda57a8987" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1be04d7317b2a166787e6dd8d8670db9">
+            <i class="las la-blender"></i>
+            <span>Sin Alcohol</span>
+        </label>
+        
+        <label class="btn filter-988adb8ca725662baaf43e59102846c9">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="a1f503a6c28c3f94ab384a9bd2829911">
+            <i class="las la-blender"></i>
+            <span>Sin Alcohol ni Azúcares</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
@@ -575,25 +651,36 @@
 
 
 
-<div class="btn-group btn-group-toggle portfolio-filter justify-content-center d-none flex-wrap" filter-level="3" filter-parent="1625df8d46c41d6a5cc30cd0f9fb025b" data-toggle="buttons">
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28 active">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1625df8d46c41d6a5cc30cd0f9fb025b" checked>
-        <i class="las la-times"></i>
-        <span>Todo</span>
-    </label>
+<div class="portfolio-filter d-none" filter-level="3" filter-parent="1625df8d46c41d6a5cc30cd0f9fb025b">
     
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="782f7a9bc2d37c643bc9ed0cd0f18dcc">
-        <i class="las la-coffee"></i>
-        <span>Frías</span>
-    </label>
+    <div class="portfolio-filter-step">
+        <h3>Finalmente</h3>
+        <p>escoge una opción y pulsa una foto para ver más detalles</p>
+    </div>
     
-    <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
-        <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="68a1df68cbceceeb0d306af230b43b13">
-        <i class="las la-coffee"></i>
-        <span>Calientes</span>
-    </label>
-    
+
+    <div class="btn-group btn-group-toggle portfolio-filter-bar justify-content-center d-flex flex-wrap" data-toggle="buttons">
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28 active">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="1625df8d46c41d6a5cc30cd0f9fb025b" checked>
+            <i class="las la-times"></i>
+            <span>Todo</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="782f7a9bc2d37c643bc9ed0cd0f18dcc">
+            <i class="las la-coffee"></i>
+            <span>Frías</span>
+        </label>
+        
+        <label class="btn filter-bfee8906259b5e03945e5c6352fdef28">
+            <input type="radio" autocomplete="off" name="shuffle-filter" filter-value="68a1df68cbceceeb0d306af230b43b13">
+            <i class="las la-coffee"></i>
+            <span>Calientes</span>
+        </label>
+        
+    </div>
+
+    <hr>
 </div>
 
 
