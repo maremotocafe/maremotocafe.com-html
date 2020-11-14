@@ -8,6 +8,10 @@
     <language>es-es</language>
     <copyright>Página desarrollada por [Mario Ortiz Manero](https://github.com/marioortizmanero).  
 *Basado en [gethugothemes](https://gethugothemes.com), licencia [Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/).*
-</copyright><atom:link href="https://maremotocafe.com/tags/index.xml" rel="self" type="application/rss+xml" />
+</copyright>
+    
+	<atom:link href="https://maremotocafe.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
